@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>selector</title>
+    <script src="js/checkboxradioselector.js" defer></script>
+</head>
+<body>
+<h3>Choose the class:</h3>
+    <form id="selectClass">
+        <label><input type="checkbox" name="course" value="php">php</label>
+        <label><input type="checkbox" name="course" value="oracle">oracle</label>
+        <label><input type="checkbox" name="course" value="java">java</label>
+        <br>
+        <br>
+        Choose the teacher:
+        <select name="teachers">
+            <option>Mr Wang</option>
+            <option>Mr Zhang</option>
+            <option>Mr Liu</option>
+        </select>
+        <br>
+        <br>
+        Agree the school's schedule:
+        <label><input type="radio" name="accepts" value="yes">yes</label>
+        <label><input type="radio" name="accepts" value="no" checked>no</label>
+
+        <br><br>
+        <input type="submit" value="submitButton" name="submitButton" disabled>
+    </form>
+    <div id="show"></div>
+</body>
+</html>
